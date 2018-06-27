@@ -1,0 +1,13 @@
+     1                                  segment .text
+     2                                  	global sumexternF 
+     3                                  sumexternF:
+     4 00000000 C8000000                	enter 0,0
+     5 00000004 668B4508                	mov AX, [EBP+8]
+     6 00000008 6603450A                	add  AX, [EBP+10]	
+     7 0000000C C9                      	leave
+     8 0000000D C3                      ret
+     9                                  
+    10                                  
+    11                                  
+    12                                  
+    13                                  
